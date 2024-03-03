@@ -1,0 +1,25 @@
+Problem Statement: Write a java program which will throw an exception error for an AGE field if we pass age below 25 and above 55.
+Code:
+
+package Assignment1;
+public class Problem3
+{
+    public static void main(String[] args)
+    {
+      Problem3 pb3 = new Problem3();
+      pb3.age_check(30);
+      pb3.age_check(40);
+      pb3.age_check(20);
+    }
+    public void age_check(int age)
+    {
+        if (age <= 25 || age >=55)
+        {
+            throw new ArithmeticException("Age entered by User: "+age+" is an Invalid Age");
+        }
+        else
+        {
+            System.out.println("Age entered by User: "+age+" is a Valid Age");
+        }
+    }
+}

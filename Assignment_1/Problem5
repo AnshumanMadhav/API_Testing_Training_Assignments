@@ -1,0 +1,20 @@
+package Assignment1;
+
+public class Problem5
+{
+    public static void main(String[] args)
+    {
+      Problem5 pb5 = new Problem5();
+      pb5.number_808_finder();
+    }
+    public void number_808_finder()
+    {
+        for (int i = 500; i<1000; i++)
+        {
+            if(i == 808)
+            {
+                System.out.println("Value of i: " + i);
+            }
+        }
+    }
+}

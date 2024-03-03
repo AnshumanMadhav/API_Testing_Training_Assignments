@@ -1,8 +1,3 @@
-Problem Statement:
-Write a function which accepts 3 parameters. 2 integers and 1 String. If String parameter is 'add' then it would add two integers. 
-Similarly 'subs'/'multiplication'/'division'.
-
-Code:
 package Assignment1;
 
 public class Problem4

@@ -1,0 +1,20 @@
+package Assignment1;
+
+public class Problem7
+{
+    public static void main(String[] args)
+    {
+     Problem7 pb7 = new Problem7();
+        System.out.println(pb7.returnNumber());
+    }
+    public int returnNumber()
+    {
+        int c = 0;
+        float a = 7.8f;
+        float b = 4.4f;
+
+        //c = a+b;
+        return c;
+
+    }
+}

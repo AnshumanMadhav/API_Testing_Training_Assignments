@@ -1,0 +1,19 @@
+Problem Statement: Write a java program to add two float numbers like 8.6 and 9.7
+Code:
+
+package Assignment1;
+
+// Adding two float numbers
+public class Problem1
+{
+    public static void main(String[] args)
+    {
+        Problem1 pb1 = new Problem1();
+        pb1.add_two_floats(8.6f,9.7f);
+    }
+    public void add_two_floats(float a,float b)
+    {
+        System.out.println(a+b);
+    }
+}
+

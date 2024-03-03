@@ -1,0 +1,31 @@
+package Assignment1;
+
+public class Problem12
+{
+    public static void main(String[] args)
+    {
+      Problem12 pb12 = new Problem12();
+      pb12.for_loop();
+      pb12.while_loop();
+    }
+    public void for_loop()
+    {
+      System.out.println("**Numbers printing using For Loop**");
+      for(int i =1;i<=100;i++)
+      {
+          System.out.println(i);
+      }
+      System.out.println("**End of For Loop**");
+    }
+    public void while_loop()
+    {
+        System.out.println("**Numbers printing using While Loop**");
+        int i = 1;
+        while(i <=100)
+        {
+            System.out.println(i);
+            i = i+1;
+        }
+        System.out.println("**End of While Loop**");
+    }
+}

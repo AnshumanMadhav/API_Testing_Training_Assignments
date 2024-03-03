@@ -1,6 +1,3 @@
-Problem Statement: Write a java program which will throw an exception error for an AGE field if we pass age below 25 and above 55.
-Code:
-
 package Assignment1;
 public class Problem3
 {

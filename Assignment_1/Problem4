@@ -1,0 +1,46 @@
+Problem Statement:
+Write a function which accepts 3 parameters. 2 integers and 1 String. If String parameter is 'add' then it would add two integers. 
+Similarly 'subs'/'multiplication'/'division'.
+
+Code:
+package Assignment1;
+
+public class Problem4
+{
+    public static void main(String[] args)
+    {
+       Problem4 pb4 = new Problem4();
+       pb4.calculator("Add",6,5);
+       pb4.calculator("Sub",6,5);
+       pb4.calculator("Mul",6,5);
+       pb4.calculator("Div",6,5);
+       pb4.calculator("Modulo",6,5);
+    }
+    public void calculator(String operation,int a,int b)
+    {
+        if(operation.equals("Add"))
+        {
+            int Sum = a+b;
+            System.out.println("Sum of " +a+ " and " +b+ " is " +Sum);
+        }
+        else if (operation.equals("Sub"))
+        {
+            int Sub = a-b;
+            System.out.println("Difference of " +a+ " and " +b+ " is " +Sub);
+        }
+        else if (operation.equals("Mul"))
+        {
+            int Mul = a*b;
+            System.out.println("Product of " +a+ " and " +b+ " is " +Mul);
+        }
+        else if (operation.equals("Div"))
+        {
+            int Div = a/b;
+            System.out.println("Division of " +a+ " and " +b+ " is " +Div);
+        }
+        else
+        {
+            System.out.println("Selected Operation " +operation+ " is not currently supported"  );
+        }
+    }
+}

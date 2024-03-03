@@ -1,0 +1,32 @@
+package Assignment1;
+
+import Day2.String_Operations;
+
+public class Problem8
+{
+    static String a = "Welcome To Java";
+    public static void main(String[] args)
+    {
+     Problem8 pb8 = new Problem8();
+     pb8.space_counter(a);
+     pb8.string_extractor(a);
+    }
+    public void space_counter(String a)
+    {
+        int count = 0;
+        int string_len = a.length();
+        for(int i =0;i<string_len;i++)
+        {
+            if(a.charAt(i) == ' ')
+            {
+                count = count + 1;
+            }
+        }
+        System.out.println("Number of Spaces present in String is: " +count);
+    }
+    public void string_extractor(String a)
+    {
+        String[] split_a = a.split(" ");
+        System.out.println("First Word of String is: "+split_a[0]);
+    }
+}

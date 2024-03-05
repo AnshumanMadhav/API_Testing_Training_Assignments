@@ -1,0 +1,14 @@
+package Assignment1;
+import java.time.LocalDate;
+import java.util.*;
+public class Problem14
+{
+    public static void main(String[] args)
+    {
+        LocalDate currentDate = LocalDate.now();
+        String datestring = currentDate.toString();
+        System.out.println("Current Date is: "+datestring);
+        System.out.println("Data-type is: "+datestring.getClass().getSimpleName());
+
+    }
+}

@@ -1,0 +1,25 @@
+package Assignment1;
+
+public class Problem23 
+{
+    public static void main(String[] args)
+    {
+      Problem23 pb23 = new Problem23();
+      pb23.divide_by_zero();
+    }
+    public void divide_by_zero()
+    {
+        try
+        {
+            System.out.println(7/0);
+        }
+        catch(Exception e)
+        {
+            e.printStackTrace();
+        }
+        finally 
+        {
+            System.out.println("This Block always executes");
+        }
+    }
+}

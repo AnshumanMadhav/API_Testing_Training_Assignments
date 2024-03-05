@@ -1,0 +1,23 @@
+package Assignment1;
+
+public class Problem20
+{
+    public static void main(String[] args)
+    {
+        String str1 = "Cristiano Ronaldo";
+        String str2 = "Ronaldo Nazario";
+        Problem20 pb20 = new Problem20();
+        pb20.string_comparison(str1,str2);
+    }
+    public void string_comparison(String str1,String str2)
+    {
+        if (str1.equals(str2))
+        {
+            System.out.println("Strings are matching!");
+        }
+        else
+        {
+            System.out.println("Strings are not matching!");
+        }
+    }
+}

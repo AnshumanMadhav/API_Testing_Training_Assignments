@@ -1,0 +1,19 @@
+package Assignment1;
+
+public class Problem22
+{
+    public static void main(String[] args)
+    {
+       String str = "Narendra Modi";
+       Problem22 pb22 = new Problem22();
+       System.out.println("Original String is: "+str);
+       pb22.str_upper_lower(str);
+    }
+    public void str_upper_lower(String str)
+    {
+        String upper_str = str.toUpperCase();
+        String lower_str = str.toLowerCase();
+        System.out.println("Upper Case: " +upper_str);
+        System.out.println("Lower Case: " +lower_str);
+    }
+}

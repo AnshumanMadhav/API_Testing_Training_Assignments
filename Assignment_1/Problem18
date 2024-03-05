@@ -1,0 +1,23 @@
+package Assignment1;
+
+public class Problem18
+{
+    public static void main(String[] args)
+    {
+      String Str1 = "Sachin Tendulkar";
+      String Str2 = "Rahul Dravid";
+      Problem18 pb18 = new Problem18();
+      pb18.extract_first_name(Str1);
+      pb18.extract_last_name(Str2);
+    }
+    public void extract_first_name(String str)
+    {
+        String[] new_str = str.split(" ");
+        System.out.println("First name is: "+new_str[0]);
+    }
+    public void extract_last_name(String str)
+    {
+        String[] new_str = str.split(" ");
+        System.out.println("Last name is: "+new_str[1]);
+    }
+}

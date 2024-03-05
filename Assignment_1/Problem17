@@ -1,0 +1,26 @@
+package Assignment1;
+
+public class Problem17
+{
+  public static void main(String[] args)
+  {
+   Problem17 pb17 = new Problem17();
+   pb17.even_or_odd_finder(7);
+   pb17.even_or_odd_finder(30);
+  }
+  public void even_or_odd_finder(int num)
+  {
+      if(num%2==0)
+      {
+          System.out.println(+num+" is even number");
+      }
+      else
+      {
+          System.out.println(+num+" is odd number");
+      }
+  }
+
+
+
+}
+

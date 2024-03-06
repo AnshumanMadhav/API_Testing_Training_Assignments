@@ -1,0 +1,39 @@
+// From Class A calling an integer variable which is present in Class B
+// Using Constructor to Update Value of Variable present in Class B
+
+// Class B
+package Assignment1;
+public class ClassB
+{
+ int b;
+ public ClassB(int b)
+ {
+  this.b = b;
+ }
+ public int display_b_value()
+ {
+  return b;
+ }
+}
+
+// Class A
+package Assignment1;
+
+public class ClassA
+{
+    ClassA(int new_value,int old_value)
+    {
+      old_value = new_value;
+      System.out.println("Updated value of b is: "+old_value);
+    }
+    public static void main(String[] args)
+{
+    // From Class A calling an integer variable which is present in Class B
+    ClassB B_obj = new ClassB(20);
+    int b_old_value = B_obj.display_b_value();
+    System.out.println("Old value of b is: "+b_old_value);
+    //Using Constructor to Update Value of Variable present in Class B
+    ClassA A_obj = new ClassA(40,b_old_value);
+}
+}
+

@@ -1,0 +1,27 @@
+//Problem Stmt: If EmpNo=123 then EmpName=Jadeja. Like this how can we keep 100 EmpName with its EmpId? 
+//Solution: This can be achieved using Hashmap
+
+package Assignment1;
+import java.util.HashMap;
+public class Problem11
+{
+    public static void main (String[] args)
+    {
+        // Creating a Hashmap to store Employee ID and Employee Name
+        HashMap<Integer,String> employee_details = new HashMap<>();
+
+        //Adding Employee ID and Employee Name to Hashmap
+        employee_details.put(123,"Jadeja");
+        employee_details.put(124,"Ashwin");
+        employee_details.put(125,"Sachin");
+        // Similarly We can add as many employees as per requirement
+        // Accessing an Employee's Name using Employee ID
+        int empIdToFind = 125; // Employee ID to find
+        String empName = employee_details.get(empIdToFind);
+        if (empName != null) {
+            System.out.println("Employee Name for EmpNo " + empIdToFind + " is: " + empName);
+        } else {
+            System.out.println("Employee with EmpNo " + empIdToFind + " not found");
+        }
+    }
+}

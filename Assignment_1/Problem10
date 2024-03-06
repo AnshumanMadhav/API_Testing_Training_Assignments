@@ -1,0 +1,26 @@
+// Class containing Private Method
+package Assignment1;
+
+public class Problem_10_1
+{
+    private void private_Method()
+    {
+        System.out.println("Private Method " + "called from outside");
+    }
+
+}
+
+// Class where we are accessing Private Method of previous Class
+
+package Assignment1;
+import java.lang.reflect.Method;
+public class Problem_10_2
+{
+public static void main (String[] args) throws Exception
+{
+    Problem_10_1 pb_10_1 = new Problem_10_1();
+    Method m = Problem_10_1.class.getDeclaredMethod("private_Method");
+    m.setAccessible(true);
+    m.invoke(pb_10_1);
+}
+}

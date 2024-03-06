@@ -1,0 +1,27 @@
+package Assignment1;
+import java.io.*;
+import java.util.*;
+public class Problem6
+{
+    public static void main(String[] args)
+    {
+        ArrayList<Integer> array_list_numbers = new ArrayList<>();
+        for (int i = 200; i <= 500; i++)
+        {
+            array_list_numbers.add(i);
+        }
+        HashSet<Integer> hash_list_numbers = new HashSet<>();
+        for (int i = 200; i <= 500; i++)
+        {
+            hash_list_numbers.add(i);
+        }
+        TreeSet<Integer> tree_list_numbers = new TreeSet<>();
+        for (int i = 200; i <= 500; i++)
+        {
+            tree_list_numbers.add(i);
+        }
+        System.out.println("Array List Content: "+array_list_numbers);
+        System.out.println("Hash List Content: "+hash_list_numbers);
+        System.out.println("Tree List Content: "+tree_list_numbers);
+    }
+}

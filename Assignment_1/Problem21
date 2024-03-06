@@ -1,0 +1,19 @@
+package Assignment1;
+
+public class Problem21
+{
+        public static void main(String[] args) {
+
+            String originalName1 = "Liverpool";
+            String originalName2 = "City";
+            Problem21 pb21 = new Problem21();
+            System.out.println("Original Names are: " +originalName1+ " & " +originalName2);
+            pb21.replaceName(originalName1,originalName2);
+        }
+    public static void replaceName(String name1,String name2)
+    {
+        String newName1 = name1.replace("Liverpool", "Liverpool Football Club");
+        String newName2 = name2.replace("City", "Manchester City");
+        System.out.println("Updated Names are: " +newName1+ " & " +newName2);
+    }
+}

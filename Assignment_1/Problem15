@@ -1,0 +1,21 @@
+package Assignment1;
+import java.util.UUID;
+public class Problem15
+{
+    public static void main (String[] args)
+    {
+        System.out.println(generateRandomAlphaNumeric(10));
+    }
+    public static String generateRandomAlphaNumeric(int length) {
+        StringBuilder builder = new StringBuilder();
+        String uuid = UUID.randomUUID().toString().replaceAll("-", "");
+        for (int i = 0; i < length; i++)
+        {
+            char randomChar = uuid.charAt(i);
+            builder.append(randomChar);
+        }
+
+        return builder.toString();
+    }
+
+}

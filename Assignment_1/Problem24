@@ -1,0 +1,28 @@
+package Assignment1;
+
+public class Problem24
+{
+    public Problem24(int a,int b)
+    {
+        System.out.println("Addition of Two Integers");
+        System.out.println(a+b);
+    }
+    public Problem24(int a,int b,int c)
+    {
+        System.out.println("Addition of Three Integers");
+        System.out.println(a+b+c);
+    }
+    public Problem24(float a,float b)
+    {
+        System.out.println("Addition of Two Floats");
+        System.out.println(a+b);
+    }
+
+    public static void main(String[] args)
+    {
+       Problem24 pb24_1 = new Problem24(5,7);
+       Problem24 pb24_2 = new Problem24(5,7,8);
+       Problem24 pb24_3 = new Problem24(5.2f,7.8f);
+    }
+
+}

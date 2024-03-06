@@ -1,0 +1,23 @@
+package Assignment1;
+
+public class Problem19
+{
+    public static void main(String[] args)
+    {
+        String incorrect_spelling = "Davi Beckham";
+        int old_goals = 400;
+        System.out.println("****Before Update****");
+        System.out.println("Footballer: " +incorrect_spelling);
+        System.out.println("Number of Goals scored by Messi: " +old_goals);
+        Problem19 pb19 = new Problem19();
+        pb19.update_details(incorrect_spelling,old_goals);
+    }
+    public static void update_details(String str1,int a)
+    {
+        String str2 = str1.replace("Davi Beckham","David Beckham");
+        int b = 579;
+        System.out.println("****After Update Details****");
+        System.out.println("Footballer: " +str2);
+        System.out.println("Number of Goals scored by Messi: " +b);
+    }
+}

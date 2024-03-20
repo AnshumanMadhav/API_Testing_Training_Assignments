@@ -1,0 +1,9 @@
+ASSIGNMENT-1: https://api.postman.com/collections/33282892-692580e5-3a06-4856-b897-1b45441b2bc3?access_key=PMAT-01HSC0EC3Q186EXCWWR5ZA0WR8
+
+ASSIGNMENT-2:https://api.postman.com/collections/33282892-4fe194e7-3d81-4045-978a-91aad2201eb5?access_key=PMAT-01HSC2T7B6NTTK77CVSMG7KEZ7
+
+ASSIGNMENT-3:https://api.postman.com/collections/33282892-596a90b7-9cce-42d7-89ad-3afb56b4091c?access_key=PMAT-01HSC46R2XW8M3RRBNDG1Z33WK
+
+ASSIGNMENT-4:https://api.postman.com/collections/33282892-b3d2f457-4b99-4685-8c62-fcc38e4f3365?access_key=PMAT-01HSD0WKK6M12667ZV1D467PEV
+
+ASSIGNMENT-5:https://api.postman.com/collections/33282892-e4a5fde9-ae71-4e29-88f0-1741e287bacf?access_key=PMAT-01HSC6NTJ8K9RFC6N5Z0ERY26K

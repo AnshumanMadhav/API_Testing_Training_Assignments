@@ -39,7 +39,7 @@ public class Assignment_001
     }
 
     @Parameters({"title","price","brand","image_count"})
-    @Test(enabled = false)
+    @Test()
     public void display_details(String expected_title,String expected_price,String expected_brand,String expected_image_count)
     {
         response = get("https://dummyjson.com/products/1");

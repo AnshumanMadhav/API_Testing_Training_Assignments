@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Rest_API_Assignment">
+    <test name="Post_Response_Validation">
+        <parameter name="post_url" value="https://petstore.swagger.io/v2/pet"></parameter>
+        <parameter name="expected_status_code" value="200"></parameter>
+        <parameter name="expected_status_text" value="available"></parameter>
+        <classes>
+            <class name="Rest_API_Assignment.post_pet_details" />
+        </classes>
+    </test>
+    <test name="Get_Response_Validation">
+        <parameter name="get_url" value="https://petstore.swagger.io/v2/pet/"></parameter>
+        <classes>
+            <class name="Rest_API_Assignment.get_pet_details" />
+        </classes>
+    </test>
+    <test name="Delete_Response_Validation">
+        <parameter name="delete_url" value="https://petstore.swagger.io/v2/pet/"></parameter>
+        <parameter name="expected_message" value="Pet not found"></parameter>
+        <classes>
+            <class name="Rest_API_Assignment.delete_pet" />
+        </classes>
+    </test>
+</suite>
